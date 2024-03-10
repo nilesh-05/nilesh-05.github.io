@@ -22,16 +22,14 @@ export default function Intro() {
                     className='absolute text-3xl bottom-0 right-0'>👋🏼</motion.span>
                 </div>
             </div>
-            <motion.p initial={{y: 100, opacity: 0}} animate={{opacity: 1, y: 0}} className='mb-10 mt-10 px-4 !leading-[1.5]'>
+            <motion.h1 initial={{y: 100, opacity: 0}} animate={{opacity: 1, y: 0}} className='mb-10 mt-10 px-4 !leading-[1.5]'>
                 <span className='text-3xl font-bold sm:text-4xl mb-[5px] block'>I'm Nilesh.</span>
                 <br></br>
                 <span>
-                    An <strong>SDE-1 at <span className='underline'><Link target='_blank' href="https://www.guenstiger.de">guenstiger.de</Link></span></strong> with a passion for crafting efficient, responsive web applications. 
-                    Specializing in <strong>Node.js</strong> and <strong>JavaScript</strong>, I optimize server-side operations and implement engaging user interfaces. 
-                    Proficient in <strong>Next.js</strong>, <strong>Serverless</strong>, <strong>React</strong>, <strong>Recoil</strong>, <strong>Sass</strong>, and <strong>Git</strong>, I'm eager to learn and adapt to new technologies.
-                    Currently, I am <strong>learning TypeScript</strong> and <strong>Prisma ORM</strong> alongside <strong>PostgreSQL</strong>. 
+                    I am a full stack developer with 2 years of experience. I enjoy building sites and apps. 
+                    My main focus for this year is mastering Typescript and Prisma ORM.
                 </span>
-            </motion.p>
+            </motion.h1>
             <motion.div initial={{opacity: 0, y: 100}} animate={{opacity: 1, y: 0}} transition={{delay: 0.1}} className='flex flex-col sm:flex-row items-center gap-3 px-4 text-lg font-medium justify-center'>
                 <Link href="#contact" className='group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 hover:bg-gray-950 transition shadow-md shadow-black/[0.1]'>
                     Contact Me <BsArrowRight className='opacity-70 group-hover:translate-x-2 transition'/>
