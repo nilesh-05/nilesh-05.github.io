@@ -33,12 +33,17 @@ export default function Intro() {
                 </span>
             </motion.p>
             <motion.div initial={{opacity: 0, y: 100}} animate={{opacity: 1, y: 0}} transition={{delay: 0.1}} className='flex flex-col sm:flex-row items-center gap-3 px-4 text-lg font-medium justify-center'>
-                <Link href="#contact" className='bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 hover:bg-gray-950 transition'>Contact Me <BsArrowRight/> </Link>
-                <a href="#" className='bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 transition'>Resume <HiDownload/> </a>
-                <a href='https://www.linkedin.com/in/nileshsharma56/' className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full'>
+                <Link href="#contact" className='group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 hover:bg-gray-950 transition shadow-md shadow-black/[0.1]'>
+                    Contact Me <BsArrowRight className='opacity-70 group-hover:translate-x-2 transition'/>
+                </Link>
+                <a className='bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 transition cursor-pointer border border-black/10 shadow-md shadow-black/[0.1]'
+                href='https://drive.google.com/file/d/1uGNuBnNVMMwDkmZSRi5GpYHwjHAwWX5s/view' target='_blank'>
+                    Resume <HiDownload className='opacity-70'/> 
+                </a>
+                <a href='https://www.linkedin.com/in/nileshsharma56/' className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full cursor-pointer hover:text-gray-950 hover:scale-110 transition border border-black/10 shadow-md shadow-black/[0.1]'>
                     <BsLinkedin/>
                 </a>
-                <a className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full'>
+                <a href='https://github.com/nilesh-05' className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full cursor-pointer hover:text-gray-950 hover:scale-110 transition border border-black/10 shadow-md shadow-black/[0.1]'>
                     <BsGithub />
                 </a>
             </motion.div>
