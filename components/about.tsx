@@ -8,7 +8,7 @@ export default function About() {
   return (
     <motion.section
     initial={{y: 100, opacity: 0}} animate={{y: 0, opacity: 1}} transition={{delay: 0.3}}
-    className='mb-28 max-w-[45rem] text-center leading-8 sm:mb-40'>
+    className='max-w-[45rem] text-center leading-8'>
         <SectionHeading heading={"About Me"}/>
         <p className='mb-3 '>
             An <strong>SDE-1 at <span className='underline'><Link target='_blank' href="https://www.guenstiger.de">guenstiger.de</Link></span></strong> with a passion for crafting efficient, responsive web applications. 
