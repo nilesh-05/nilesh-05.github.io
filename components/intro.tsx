@@ -22,7 +22,7 @@ export default function Intro() {
                 </div>
             </div>
             <motion.h1 initial={{ y: 100, opacity: 0 }} animate={{ opacity: 1, y: 0 }} className='mb-10 mt-10 px-4 !leading-[1.5]'>
-                <span className='text-3xl font-bold sm:text-4xl mb-[5px] block'>I'm Nilesh.</span>
+                <span className='text-3xl font-bold sm:text-4xl mb-[5px] block'>I&apos;m Nilesh.</span>
                 <br></br>
                 <span>
                     I am a full stack developer with 2 years of experience. I enjoy building sites and apps.
